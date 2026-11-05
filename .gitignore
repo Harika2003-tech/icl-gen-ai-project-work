@@ -1,0 +1,23 @@
+# Local secrets
+.env
+.env.*
+!.env.example
+backend/firebase-service-account.json
+
+# Python
+backend/venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Editors / OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local RAG vector index and uploaded student content
+backend/data/
